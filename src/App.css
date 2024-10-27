@@ -1,0 +1,163 @@
+/* Main App styling */
+/* Center content and set a max-width */
+.App {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h1 {
+    color: #003366; /* Dark blue */
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Filter section container */
+.filter-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Filter section styling */
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Label styling for a top alignment with input */
+label {
+    font-size: 14px;
+    color: #003366;
+    display: flex;
+    flex-direction: column; /* Stack label on top of input */
+    align-items: flex-start;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input styling */
+select, input[type="number"] {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #6699cc;
+    background-color: #e6f2ff;
+    color: #003366;
+    width: 180px;
+    transition: border-color 0.3s ease;
+    margin-top: 5px;
+}
+
+/* Add focus effect */
+select:focus, input[type="number"]:focus {
+    border-color: #336699;
+    outline: none;
+}
+
+
+/* Tab navigation styling */
+.tab-navigation {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    color: #003366;
+    background: none;
+}
+
+.tab.active {
+    border-bottom: 3px solid #003366;
+    font-weight: bold;
+}
+
+.tab:hover {
+    color: #007bff;
+}
+
+
+.tab-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.table-header {
+    font-weight: bold;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .App {
+        padding: 10px;
+    }
+    .filter {
+        flex-direction: column;
+        gap: 15px;
+    }
+    select, input[type="number"] {
+        width: 100%;
+    }
+}
+/* Custom Dark Blue Background */
+.bg-dark-blue {
+    background-color: #002244; /* Dark blue color */
+    color: #ffffff; /* White text color */
+}
+
+.navbar .navbar-brand {
+    color: #ffffff; /* Ensure the brand text is white */
+}
+
+.navbar .navbar-brand:hover {
+    color: #cce7ff; /* Light blue on hover */
+}
+
+/* Optional: Adjust Navbar Padding */
+.navbar {
+    padding: 10px 20px;
+}
+
+/* Chart container styling */
+.chart-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Container styling to align data table in center */
+.data-table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Data table styling */
+.data-table {
+    width: 100%;
+    max-width: 1000px; /* Set max-width for better alignment */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
