@@ -2,6 +2,7 @@
   "name": "sales-dashboard",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://priyanshid1.github.io/Covid-19-Patient-Outcome-/",
   "dependencies": {
     "@handsontable/react": "^9.0.1",
     "bootstrap": "^5.3.3",
